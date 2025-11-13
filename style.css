@@ -1,0 +1,43 @@
+/* Eksternal CSS - digunakan di semua halaman */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #222;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.link a {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+.img-border {
+  border: 3px solid green;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 100%;
+    float: none;
+  }
+}
